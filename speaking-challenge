@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>June 10-Day Speaking Challenge</title>
+    <style>
+        :root {
+            --primary-color: #4a90e2;
+            --secondary-color: #2c3e50;
+            --accent-color: #27ae60;
+            --bg-color: #f9f9f9;
+            --card-bg: #ffffff;
+            --text-color: #333333;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            text-align: center;
+            padding: 40px 20px;
+            background: linear-gradient(135deg, var(--secondary-color), var(--primary-color));
+            color: white;
+            border-radius: 8px;
+            margin-bottom: 30px;
+        }
+
+        header h1 {
+            margin: 0 0 10px 0;
+            font-size: 2.5rem;
+        }
+
+        header p {
+            margin: 0;
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+
+        .instructions {
+            background-color: var(--card-bg);
+            border-left: 5px solid var(--primary-color);
+            padding: 20px;
+            border-radius: 4px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+            margin-bottom: 30px;
+        }
+
+        .instructions h2 {
+            margin-top: 0;
+            color: var(--secondary-color);
+        }
+
+        .instructions ol {
+            padding-left: 20px;
+        }
+
+        .instructions li {
+            margin-bottom: 10px;
+        }
+
+        .vocaroo-btn {
+            display: inline-block;
+            background-color: var(--accent-color);
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            font-weight: bold;
+            margin-top: 10px;
+            transition: background 0.2s;
+        }
+
+        .vocaroo-btn:hover {
+            background-color: #219653;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 20px;
+        }
+
+        .day-card {
+            background-color: var(--card-bg);
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+            border: 1px solid #eef2f5;
+        }
+
+        .day-badge {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: bold;
+            display: inline-block;
+            margin-bottom: 10px;
+        }
+
+        .day-card h3 {
+            margin: 0 0 10px 0;
+            color: var(--secondary-color);
+        }
+
+        .day-card p {
+            margin: 0 0 15px 0;
+            color: #555;
+        }
+
+        .tips {
+            font-size: 0.9rem;
+            font-style: italic;
+            color: #7f8c8d;
+            border-top: 1px dashed #ddd;
+            padding-top: 10px;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 50px;
+            padding: 20px;
+            color: #7f8c8d;
+            font-size: 0.9rem;
+        }
+
+        @media (min-width: 600px) {
+            .grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>June Speaking Challenge</h1>
+            <p>10 Days to Boost Your English Fluency (Level A2-B2)</p>
+        </header>
+
+        <section class="instructions">
+            <h2>How to Participate</h2>
+            <p>Complete these 10 challenges at your own pace anytime during the month of June. Aim to speak for <strong>1 to 2 minutes</strong> per challenge.</p>
+            <ol>
+                <li>Read the prompt for the day.</li>
+                <li>Take 1 minute to think about your answer and make brief notes (don't write a full script!).</li>
+                <li>Click the button below to open Vocaroo, record your voice, and save it.</li>
+                <li>Copy the Vocaroo link and send it to me via Preply chat for feedback.</li>
+            </ol>
+            <a href="https://vocaroo.com" target="_blank" class="vocaroo-btn">➔ Open Vocaroo Recorder</a>
+        </section>
+
+        <main class="grid">
+            <div class="day-card">
+                <span class="day-badge">Day 1</span>
+                <h3>My Daily Routine</h3>
+                <p>Describe your typical morning routine. What is the first thing you do? How does it help you prepare for the day?</p>
+                <div class="tips">Vocabulary tip: Use sequence words like 'first', 'then', 'after that', and 'finally'.</div>
+            </div>
+
+            <div class="day-card">
+                <span class="day-badge">Day 2</span>
+                <h3>A Memorable Trip</h3>
+                <p>Talk about a place you visited in the past that you really enjoyed. Where did you go, who were you with, and what did you do?</p>
+                <div class="tips">Grammar tip: Focus on using the past simple tense correctly.</div>
+            </div>
+
+            <div class="day-card">
+                <span class="day-badge">Day 3</span>
+                <h3>My Favorite Hobby</h3>
+                <p>What do you like to do in your free time? How long have you been doing it, and why does it make you happy?</p>
+                <div class="tips">Grammar tip: Try to use the present perfect (e.g., "I have played guitar for two years").</div>
+            </div>
+
+            <div class="day-card">
+                <span class="day-badge">Day 4</span>
+                <h3>Future Goals</h3>
+                <p>Where do you see yourself in three years? Think about your career, your travel plans, or your English learning journey.</p>
+                <div class="tips">Grammar tip: Practice using 'will', 'be going to', and 'hope to'.</div>
+            </div>
+
+            <div class="day-card">
+                <span class="day-badge">Day 5</span>
+                <h3>Home Sweet Home</h3>
+                <p>Describe your favorite room in your house or apartment. What does it look like, and why do you like spending time there?</p>
+                <div class="tips">Vocabulary tip: Use prepositions of place (next to, across from, behind) and descriptive adjectives.</div>
+            </div>
+
+            <div class="day-card">
+                <span class="day-badge">Day 6</span>
+                <h3>The Best Advice</h3>
+                <p>What is the best piece of advice you have ever received? Who gave it to you, and how did it change your perspective?</p>
+                <div class="tips">Grammar tip: Practice reporting what someone said using past tenses or modal verbs (should, ought to).</div>
+            </div>
+
+            <div class="day-card">
+                <span class="day-badge">Day 7</span>
+                <h3>A Great Movie or Book</h3>
+                <p>Summarize a movie you recently watched or a book you read. What was the main plot, and would you recommend it to others?</p>
+                <div class="tips">Vocabulary tip: Try using descriptive adjectives like 'gripping', 'hilarious', or 'thought-provoking'.</div>
+            </div>
+
+            <div class="day-card">
+                <span class="day-badge">Day 8</span>
+                <h3>Food and Culture</h3>
+                <p>If I visited your country, what traditional dish must I try? Describe what it tastes like and how it is made.</p>
+                <div class="tips">Grammar tip: Use the passive voice if you can (e.g., "It is served with...", "The ingredients are mixed...").</div>
+            </div>
+
+            <div class="day-card">
+                <span class="day-badge">Day 9</span>
+                <h3>Healthy Habits</h3>
+                <p>What is one thing you do to take care of your physical or mental health? How do you stay motivated to do it?</p>
+                <div class="tips">Vocabulary tip: Use frequency adverbs like 'usually', 'rarely', or 'every once in a while'.</div>
+            </div>
+
+            <div class="day-card">
+                <span class="day-badge">Day 10</span>
+                <h3>An Ideal Weekend</h3>
+                <p>If you had no work, no chores, and an unlimited budget, how would you spend your perfect Saturday and Sunday?</p>
+                <div class="tips">Grammar tip: Use the second conditional (e.g., "If I had more time, I would...").</div>
+            </div>
+        </main>
+
+        <footer>
+            <p>Good luck! I look forward to listening to your recordings on Preply.</p>
+        </footer>
+    </div>
+
+</body>
+</html>
